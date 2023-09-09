@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+  
+    <title>Hackathon Registration</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <ul>
+                <li><a href="web1.html"><button>HOME</button></a></li>
+                <li><a href="about.html"><button>ABOUT EVENT</button></a></li>
+                <li><a href="help.html"><button>HELP</button></a></li>
+                <li><a href="contact.html"><button>CONTACT US</button></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <h2>Hackathon Registration</h2>
+        <form action="registration.html" method="GET" >
+            <div class="label-input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="label-input-container">
+                <label for="password">Create Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="label-input-container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="label-input-container">
+                <label for="college">College:</label>
+                <input type="text" id="college" name="college" required>
+            </div>
+            <div class="label-input-container">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="label-input-container">
+                <label for="problem_statement">Upload Problem Statement:</label>
+                <input type="file" id="problem_statement" name="problem_statement" accept=".pdf" required>
+            </div>
+            <div class="btn-container">
+                <input type="submit" class="btn" value="Register">
+
+            </div>
+        </form>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

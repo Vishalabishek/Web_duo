@@ -1,0 +1,83 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f97c88;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 430px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 0px 10px 0px #888888;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+}
+
+.label-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="file"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #de7979;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}

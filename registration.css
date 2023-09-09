@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .success-message {
+    background-color: #f97c88;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+    display: inline-block;
+  }
